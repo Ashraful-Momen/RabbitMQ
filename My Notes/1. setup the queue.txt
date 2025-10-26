@@ -1,14 +1,22 @@
-#RabbitMQ: 
+#RabbitMQ: Advance Messageing Queue ProtoCall (AMQP). 
 --------------
 
 producer (send msg ) ---- > Exchange(Type : Direct/Topic-wildCard/Fangout-broadCasting) receive msg --------> send msg ---------------> Consumer receiver Msg () 
 
 
+#After Setup RabbitMQ in local machine open a rabbitMQ server as like => http://localhost:5672
+
+#In browser hit the url (Rabbit MQ Dashboard)=>  http://localhost:5672
+
+in the Dashboard we get some of option : ***Exchange (create exchange and bind queue), Queue(setup the queue) 
+
 #Exchange : bind a option that , Binding Exchange with Queue.  
 
 
-#Queue Setup : 
-----------------------------------
+
+
+#Queue Setup : (From the Dashboard setup the Queue Option ) => Here describe all kinds of Queue Options. 
+------------------------------------------------------------------
 
 
 
