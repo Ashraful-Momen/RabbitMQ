@@ -1,7 +1,17 @@
 #RabbitMQ: 
 --------------
+
+producer (send msg ) ---- > Exchange(Type : Direct/Topic-wildCard/Fangout-broadCasting) receive msg --------> send msg ---------------> Consumer receiver Msg () 
+
+
+#Exchange : bind a option that , Binding Exchange with Queue.  
+
+
 #Queue Setup : 
---------------
+----------------------------------
+
+
+
 1. Virtual Host : select the virtual host . for hosting 
 ------------------
 2. Type : priority of Hosting (1.Default Virtual host - By Default selected this options , 2.Quorem : for high avility use this hight priority , 3. Class : for pament use 4. Streaming : for streaming use this )
